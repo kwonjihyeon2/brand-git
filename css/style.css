@@ -1498,6 +1498,7 @@ ol {
 .about__page__text .section-title h2{
 	margin-top: 35px;
 	margin-bottom: 35px;
+	text-transform: none;
 }
 .about__text.about__page__text .section-title {
 	margin-bottom: 12px;
@@ -1508,7 +1509,7 @@ ol {
 }
 
 .about__para__text {
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 
 .about__para__text p {
@@ -1545,6 +1546,18 @@ ol {
 .about__page__services .vedio iframe{
 	width: 100%;
 }
+
+/* add */
+.title-line span::after{
+	content: '';
+	position: absolute;
+	top: -20px;
+	left: 15px;
+	width: 25px;
+	height: 1px;
+	background-color: #cda38d;
+}
+
 
 /*---------------------
   Services
