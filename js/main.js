@@ -246,11 +246,6 @@ function splitLetters(word) {
 changeWord();
 setInterval(changeWord, 3000);
 
-
-
-//aos.js
-AOS.init();
-
 //Services Exclusive section
 $('.click-1').click(function(){
     $('.show-1').fadeIn();
@@ -276,3 +271,7 @@ $('.click-4').click(function(){
     $('.show-3').css('display','none');
     $('.show-2').css('display','none');
 })
+
+
+//aos.js
+AOS.init();

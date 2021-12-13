@@ -95,6 +95,16 @@ p {
 	word-break: keep-all;
 }
 
+.thirdline{
+	display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    /* height:40px; */
+    line-height:20px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
 img {
 	max-width: 100%;
 }
@@ -1077,6 +1087,9 @@ ol {
 	display: block;
 	margin-bottom: 35px;
 }
+.about__call{
+	margin-top: 35px;
+}
 
 .callto__text h2 {
 	font-size: 34px;
@@ -1099,6 +1112,14 @@ ol {
 .callto__text .primary-btn:after {
 	display: none;
 }
+
+.callto__img img{
+	width: 300px;
+	height: 400px;
+	margin-left: 20px;
+}
+
+
 
 /*---------------------
   Latest
@@ -1442,25 +1463,12 @@ ol {
 	margin-bottom: 12px;
 }
 
-.breadcrumb__links a {
+.breadcrumb__text p {
 	font-size: 15px;
 	color: #ffffff;
 	display: inline-block;
 	position: relative;
-	margin-right: 12px;
-}
-
-.breadcrumb__links a:after {
-	position: absolute;
-	right: -13px;
-	top: 1px;
-	content: "~";
-}
-
-.breadcrumb__links span {
-	font-size: 15px;
-	color: #cda38d;
-	display: inline-block;
+	/* margin-right: 12px; */
 }
 
 /*---------------------
@@ -1477,7 +1485,9 @@ ol {
 	padding-top: 120px;
 	padding-bottom: 90px;
 }
-
+.about__back{
+	background: url('../img/breadcrumb-bg.jpg');
+}
 .about__text {
 	padding-top: 80px;
 }
@@ -2743,6 +2753,9 @@ ol {
 	.services__item h4 {
 		margin-top: 30px;
 	}
+	.about__para__text {
+		margin-bottom: 35px;
+	}
 }
 
 
@@ -2946,9 +2959,6 @@ ol {
 	.project {
 		padding: 0;
 	}
-	.about__para__text {
-		margin-bottom: 35px;
-	}
 	.clients {
 		padding-bottom: 90px;
 	}
@@ -2963,6 +2973,9 @@ ol {
 	}
 	.footer__about .text-right{
 		text-align: left !important;
+	}
+	.footer__logo img {
+		width: 100px;
 	}
 }
 

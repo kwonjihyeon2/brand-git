@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <meta name="keywords" content="Staging, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Staging | Template</title>
+    <title>Floris Amor</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
@@ -33,12 +33,12 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
+            <a href="#"><img src="img/logo-w.svg" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__widget">
-            <span>Call us for any questions</span>
-            <h4>+01 123 456 789</h4>
+            <span class="bold">웨딩 문의</span>
+            <h4 class="bold">02.3409.0123</h4>
         </div>
     </div>
     <!-- Offcanvas Menu End -->
@@ -46,35 +46,36 @@
     <!-- Header Section Begin -->
     <header class="header">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="#"><img src="img/logo.png" alt=""></a>
+                        <a href="#"><img src="img/logo-w.svg" alt="로고"></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li class="active"><a href="./projects.html">Projects</a></li>
-                            <li><a href="./about.html">About</a></li>
-                            <li><a href="#">Pages</a>
+                            <li class="active"><a href="./index.html">HOME</a></li>
+                            <li><a href="./about.html">ABOUT</a></li>
+                            <li><a href="#">HALL</a>
                                 <ul class="dropdown">
-                                    <li><a href="./Project-details.html">Project Details</a></li>
-                                    <li><a href="./about.html">About</a></li>
-                                    <li><a href="./services.html">Services</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                    <li><a href="./Project-details.html">La Foret</a></li>
+                                    <li><a href="./about.html">Grand Ballroom</a></li>
+                                    <li><a href="./services.html">신부대기실</a></li>
+                                    <li><a href="./blog-details.html">연회</a></li>
                                 </ul>
+                                <!-- 탭바 사용 4가지 나누기 -->
                             </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="./blog.html">OUR STORY</a></li>
+                            <li><a href="./contact.html">RESERVATION</a></li>
+                            <!-- tab으로 연회 /예식 문의 나누기 -->
                         </ul>
                     </nav>
                 </div>
                 <div class="col-lg-3">
                     <div class="header__widget">
-                        <span>Call us for any questions</span>
-                        <h4>+01 123 456 789</h4>
+                        <span>웨딩 문의</span>
+                        <h4>02.3409.0123</h4>
                     </div>
                 </div>
             </div>
@@ -152,98 +153,57 @@
     <!-- Footer Section Begin -->
     <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
         <div class="container">
-            <div class="footer__top">
-                <div class="row">
-                    <div class="col-lg-8 col-md-6">
-                        <div class="footer__top__text">
-                            <h2>Ready To Work With Us?</h2>
+            <div class="row btline align-items-center">
+                <div class="col-lg-2 col-md-3 col-sm-3">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/logo-w.svg" alt=""></a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer__top__newslatter">
-                            <form action="#">
-                                <input type="text" placeholder="Enter your email...">
-                                <button type="submit"><i class="fa fa-send"></i></button>
-                            </form>
+                </div>
+                <div class="col-lg-10 col-md-9 col-sm-9">
+                    <div class="footer__widget">
+                        <ul class="row">
+                            <li><a href="./about.html">웨딩홀 소개</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="./contact.html">오시는길</a></li>
+                            <li><a href="./contact.html">문의</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center mt-5">
+                <div class="col-lg-9 col-md-9 col-sm-6">
+                    <div class="footer__widget">
+                        <ul class="row">
+                            <li>에프엔에이주식회사</li>
+                            <li>대표이사 : 권지현</li>
+                            <li>서울 강남구 학동로 314</li>
+                            <li>사업자 등록 번호 104-81-01348</li>
+                            <li>T . 02 - 8688 - 2448</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__social text-right">
+                            <a href="https://www.facebook.com/BanyanTreeClubandSpaSeoul"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/villadegdcd/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UC_X4lEMPrk1v-iB0Sf91D1A"><i class="fa fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="footer__about">
-                        <div class="footer__logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
-                        </div>
-                        <p>7176 Blue Spring Lane <br />Santa Monica, CA 90403</p>
-                        <ul>
-                            <li>Info.colorlib@gmail.com</li>
-                            <li>+84 123 456 789</li>
-                        </ul>
-                        <div class="footer__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                <div class="col-12">
                     <div class="footer__widget">
-                        <h6>Company</h6>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Our Works</a></li>
-                            <li><a href="#">Career</a></li>
-                            <li><a href="#">FAQs</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3 col-sm-6">
-                    <div class="footer__widget">
-                        <h6>Services</h6>
-                        <ul>
-                            <li><a href="#">Architecture</a></li>
-                            <li><a href="#">Interior Design</a></li>
-                            <li><a href="#">Exterior Design</a></li>
-                            <li><a href="#">Planning</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="footer__address">
-                        <h6>Get In Touch</h6>
-                        <p>7176 Blue Spring Lane <br />Santa Monica, CA 90403</p>
-                        <ul>
-                            <li>Info.colorlib@gmail.com</li>
-                            <li>+84 123 456 789</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-lg-8 col-md-7">
-                        <div class="copyright__text">
-                            <p>Copyright © <script>
-                                document.write(new Date().getFullYear());
-                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
-                            aria-hidden="true"></i> by <a href="https://colorlib.com"
-                            target="_blank">Colorlib</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-5">
-                    <div class="copyright__widget">
-                        <a href="#">Terms of use</a>
-                        <a href="#">Privacy Policy</a>
+                        <p>** 이 페이지는 포트폴리오 용도로 제작되었음을 알려드립니다.**</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 <!-- Footer Section End -->
 
 <!-- Js Plugins -->
