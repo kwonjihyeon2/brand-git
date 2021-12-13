@@ -1495,7 +1495,10 @@ ol {
 .about__text.about__page__text {
 	padding-top: 0;
 }
-
+.about__page__text .section-title h2{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
 .about__text.about__page__text .section-title {
 	margin-bottom: 12px;
 }
@@ -1538,6 +1541,9 @@ ol {
 
 .about__page__services__text {
 	margin-bottom: 30px;
+}
+.about__page__services .vedio iframe{
+	width: 100%;
 }
 
 /*---------------------

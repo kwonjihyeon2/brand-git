@@ -246,6 +246,7 @@ function splitLetters(word) {
 changeWord();
 setInterval(changeWord, 3000);
 
+
 //Services Exclusive section
 $('.click-1').click(function(){
     $('.show-1').fadeIn();
